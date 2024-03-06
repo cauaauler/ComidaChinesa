@@ -1,0 +1,105 @@
+/*tag*/
+body{
+    text-align: center;
+    background-color: #FEE9E1;
+    
+}
+h1{
+    /*o h1 não ocupa toda a linha, podemos colocar mais de */
+    display:inline;
+    color: #F31713;
+    background-color: #ffffff;
+    /*padding é o espaço entre o conteúdo e a borda*/
+    padding: 0 150px;
+}
+h3{
+    color: #B52B29;
+}
+table{
+    /*uma maneira de centralizar*/
+    margin: 0 auto;
+    border: 1px solid black;
+    /*junta as bordas*/
+    border-collapse: collapse;
+    
+}
+/*td que esta dentro de table, dependendo do caso utilizar isso, ou*/
+td{
+    border: 1px solid black;
+    /*esse é um exemplo bom de padding*/
+    padding: 5px;
+}
+
+/* Uma das formas para dimensionar imagem, não muito boa
+img{
+    width: 350px;
+}
+*/
+/*Outra forma de dimensionar*/
+figure{
+    width: 310px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    /*margin: 0 150px 0 150px;
+    margin: 0 150px;
+    dois valores, o primeiro cima embaixo, o segundo direita e esquerda
+    */
+}
+/*
+ul{
+    list-style: circle;
+}
+*/
+/*class*/
+.relogio{
+    width: 150px;
+    margin: 30px;
+}
+.chaVerde{
+    width: 200px;
+    margin: 30px;
+}
+.wonton{
+    width: 230px;
+    margin: 30px;
+}
+.petiscos{
+    color : #B52B29;
+}/*
+.bebidas{
+    color: #3772FF;
+}
+*/
+.itemMenu{
+    color: #F31713;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    /*deixar a borda redonda
+    border-radius: 15px;
+    */
+    /*tira sublinhado de hiperlink*/
+    text-decoration: none;
+    /*põe em negrito*/
+    font-weight: bold;
+    
+}
+.menu{
+    
+}
+
+/*pseudoclasse*/
+/*passar o mouse por cima*/
+.itemMenu:hover{
+    color: white;
+    background-color: #F31713;
+}
+/*Quando item não foi visitado*/
+.itemMenu:link{
+}
+/*O que acontece quando o item esta ativo*/
+.itemMenu:active{}
+/*Quando item foi visitado*/
+.itemMenu:visited{}
